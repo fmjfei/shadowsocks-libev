@@ -48,6 +48,6 @@ RUN set -ex \
 
 USER nobody
 
-COPY ./docker/alpine/entrypoint.sh /entrypoint.sh
+COPY /docker/alpine/entrypoint.sh /entrypoint.sh
 
 CMD /entrypoint.sh
